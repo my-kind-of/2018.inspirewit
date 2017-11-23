@@ -1,3 +1,5 @@
+$(document).ready( function () {
+
 // list of people
 // ["img/","","",""],
 
@@ -12,8 +14,7 @@ var PPL = [
 ];
 
 function randomItem(arr) {
-  // hello
-  // HELLO
+
   var index = Math.floor(Math.random() * arr.length);
   return arr[index];
 }
@@ -103,3 +104,4 @@ function sliders() {
 pickPeople(3);
 appendMe();
 sliders();
+});
