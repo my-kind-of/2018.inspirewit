@@ -8,9 +8,10 @@ var PPL = [
   ["img/grace.png","Grace Hopper","The &apos;Queen of Software&apos;, Grace worked on the first commercial computer in the US, created the first compiler and invented the first programming language to use English, rather than mathematical notation.","https://en.wikipedia.org/wiki/Grace_Hopper", ""],
   // ["img/edith.png","Edith Clarke","Edith was the first woman to be awarded an MSc in electrical engineering by MIT in 1912 and later went on to become the first professionally employed electrical engineer in the US.","https://en.wikipedia.org/wiki/Edith_Clarke", ""],
   ["img/dorothy.png","Dorothy Vaughan","Recently immortalised in the film &apos;Hidden Figures&apos;, Dorothy was the first African-American woman to supervise a group of staff at NACA (predecessor of NASA). She prepared for the introduction of computers by teaching her and her staff FORTRAN.","https://en.wikipedia.org/wiki/Dorothy_Vaughan", ""],
-  // ["img/mary.png","Mary Kenneth Keller","Mary became the first woman to gain a PhD in computer science in 1965 and played a key role in developing the BASIC programming language.","https://en.wikipedia.org/wiki/Mary_Kenneth_Keller", ""],
+  ["img/mary.png","Mary Kenneth Keller","Mary became the first woman to gain a PhD in computer science in 1965 and played a key role in developing the BASIC programming language.","https://en.wikipedia.org/wiki/Mary_Kenneth_Keller", ""],
   ["img/hedy.png","Hedy Lamarr","Not only a Hollywood superstar, Hedy invented spread-spectrum radio, the technology that makes Wi-Fi, Bluetooth and GPS systems possible.","https://en.wikipedia.org/wiki/Hedy_Lamarr#Inventor", ""],
   ["img/rosza.png","Rósza Péter","Rósa was a mathematician and founder of recursive function theory, which she applied to computers from the mid-1950s on.","https://en.wikipedia.org/wiki/R%C3%B3zsa_P%C3%A9ter", ""],
+  ["img/betty.png","Betty Holberton","One of a team of six women, Betty was one of the first programmers of the the world's first general purpose computer, ENIAC, which was developed for use in WWII. She was also the inventor of breakpoints in computer debugging.","https://en.wikipedia.org/wiki/Betty_Holberton", ""],
 ];
 
 function randomItem(arr) {
