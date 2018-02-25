@@ -1,0 +1,150 @@
+body {
+scroll-behavior: smooth;
+}
+
+.inconsolata {
+  font-family: 'Inconsolata', monospace;
+}
+
+.prociono {
+  font-family: 'Prociono', serif;
+}
+
+/* SIZes */
+
+.h3dot5 {
+  height: 6rem;
+}
+
+.w3dot5 {
+  width: 6rem;
+}
+
+.h4dot5 {
+  height: 12rem;
+}
+
+.w4dot5 {
+  width: 12rem;
+}
+
+.h5dot5 {
+  height: 24rem;
+}
+
+.h6 {
+  height:32rem;
+}
+
+/* COLOURS */
+.seafoam {
+  color: #009c8f;
+}
+
+.bg-seafoam {
+  background-color: #009c8f;
+}
+
+.hover-seafoam:hover {
+  color: #009c8f;
+}
+
+.dark-purple {
+  color: #5f3b97;
+}
+
+.bg-dark-purple {
+  background-color: #5f3b97;
+}
+
+.hover-dark-purple:hover {
+  color: #5f3b97;
+}
+
+.bs-dark-purple {
+  box-shadow: 0.5em 0.5em 0.5em #5f3b97;
+}
+
+.bs-seafoam {
+  box-shadow: 0.5em 0.5em 0.5em #009c8f;
+}
+
+.g-seafoam::before {
+  height: 2rem;
+  background: linear-gradient(transparent, #009c8f);
+  display: block;
+  content: "";
+}
+
+.g-seafoam::after {
+  height: 2rem;
+  background: linear-gradient(#009c8f, transparent);
+  display: block;
+  content: "";
+}
+
+.g-dark-purple::before {
+  height: 2rem;
+  background: linear-gradient(transparent, #5f3b97);
+  display: block;
+  content: "";
+}
+
+.g-dark-purple::after {
+  height: 2rem;
+  background: linear-gradient(#5f3b97, transparent);
+  display: block;
+  content: "";
+}
+
+.g-transparent-dark-purple {
+  background: linear-gradient(transparent, #5f3b97);
+}
+
+/* TOP MARQUEE ANIMATION */
+/* https://webref.ru/html/marquee#field_html_note */
+.marquee {
+ overflow: hidden;
+ white-space: nowrap;
+ animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+ 0% { text-indent: 100%; }
+ 100% { text-indent: -100%; }
+}
+
+.marquee:hover
+{
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+     animation-play-state: paused;
+}
+
+/* ns*/
+@media screen and (min-width:30em){
+  .bg-black-0-ns {background-color:rgba(0,0,0,0)}
+}
+
+/* l */
+@media screen and (min-width:60em){
+.marquee {
+ animation: marquee 45s linear infinite;
+  }
+}
+
+/* m */
+@media screen and (min-width:30em) and (max-width:60em){
+  .marquee {
+ animation: marquee 20s linear infinite;
+  }
+}
+
+.flip-h {
+  transform: rotate(180deg);
+}
+
+.trans-soft {
+  transition: 0.5s linear;
+}
