@@ -41,6 +41,10 @@ scroll-behavior: smooth;
   color: #009c8f;
 }
 
+.b--seafoam{
+  border-color: #009c8f;
+}
+
 .bg-seafoam {
   background-color: #009c8f;
 }
@@ -97,8 +101,26 @@ scroll-behavior: smooth;
   content: "";
 }
 
+.g-white::before {
+  height: 2rem;
+  background: linear-gradient(transparent, #fff);
+  display: block;
+  content: "";
+}
+
+.g-white::after {
+  height: 2rem;
+  background: linear-gradient(#fff, transparent);
+  display: block;
+  content: "";
+}
+
 .g-transparent-dark-purple {
   background: linear-gradient(transparent, #5f3b97);
+}
+
+.ts-dark-purple {
+  text-shadow: 0.15em 0.15em 0.2em #5f3b97;
 }
 
 /* TOP MARQUEE ANIMATION */
